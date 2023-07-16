@@ -7,9 +7,10 @@ const heading ={
 
 }
   return (
-    <div id="main">
-      <h1 >Success</h1>
-      <h1 id='error' >Error</h1>
+     <div id="main">
+      <h1 className='heading'>{heading}</h1>
+      <h1 className={styles.success} >Success</h1>
+      <h1 id='error' style={{color:'red', fontSize:"50px"}}>Error</h1>
     </div>
   )
 }
