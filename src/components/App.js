@@ -2,10 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 import styles from '../styles/appStyles.module.css';
 const App = () => {
-const heading ={
-
-
-}
+  const heading = 'React Inline and Module CSS';
   return (
      <div id="main">
       <h1 className='heading'>{heading}</h1>
